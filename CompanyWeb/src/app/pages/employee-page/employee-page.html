@@ -1,0 +1,47 @@
+<!-- <p>employee-page works!</p> -->
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th><input [(ngModel)]="filters.department" placeholder="Фильтр"
+                    class="form-control form-control-sm" /></th>
+            <th><input [(ngModel)]="filters.fullName" placeholder="Фильтр"
+                    class="form-control form-control-sm" /></th>
+            <th><input type="date" [(ngModel)]="filters.birthDate"
+                    class="form-control form-control-sm" /></th>
+            <th><input type="date" [(ngModel)]="filters.hireDate"
+                    class="form-control form-control-sm" /></th>
+            <th><input [(ngModel)]="filters.salary" placeholder="Фильтр"
+                    class="form-control form-control-sm" /></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th (click)="sort('department')">Отдел</th>
+            <th (click)="sort('fullName')">Ф.И.О</th>
+            <th (click)="sort('birthDate')">Дата рождения</th>
+            <th (click)="sort('hireDate')">Дата устройства на работу</th>
+            <th (click)="sort('salary')">Зарплата</th>
+            <th>
+                <button class="btn btn-success btn-sm"
+                    (click)="openCreateModal()">Создать</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of filteredEmployees">
+            <td>{{ emp.department }}</td>
+            <td>{{ emp.surname }} {{ emp.name }} {{ emp.patronymic }}</td>
+            <td>{{ emp.dateBirth | date }}</td>
+            <td>{{ emp.dateOfDepartment | date }}</td>
+            <td>{{ emp.salary }}</td>
+            <td>
+                <button class="btn btn-warning btn-sm me-1"
+                    (click)="openEditModal(emp)">Редактировать</button>
+                <button class="btn btn-danger btn-sm"
+                    (click)="confirmDelete(emp.id!)">Удалить</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Модалка для формы -->
+<app-employee-form *ngIf="showModal" [employee]="selectedEmployee" (close)="closeModal($event)"></app-employee-form>
