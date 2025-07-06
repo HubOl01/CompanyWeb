@@ -7844,7 +7844,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IT-Oleg\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -7853,14 +7853,14 @@
       "projectUniqueName": "D:\\MyProjects\\CompanyWeb\\CompanyWebAPI\\CompanyWebApi\\CompanyWebApi.csproj",
       "projectName": "CompanyWebApi",
       "projectPath": "D:\\MyProjects\\CompanyWeb\\CompanyWebAPI\\CompanyWebApi\\CompanyWebApi.csproj",
-      "packagesPath": "C:\\Users\\IT-Oleg\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "D:\\MyProjects\\CompanyWeb\\CompanyWebAPI\\CompanyWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\IT-Oleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -546,3 +546,4 @@ D:\MyProjects\CompanyWeb\CompanyWebAPI\CompanyWebApi\obj\Debug\net9.0\refint\Com
 D:\MyProjects\CompanyWeb\CompanyWebAPI\CompanyWebApi\obj\Debug\net9.0\CompanyWebApi.pdb
 D:\MyProjects\CompanyWeb\CompanyWebAPI\CompanyWebApi\obj\Debug\net9.0\CompanyWebApi.genruntimeconfig.cache
 D:\MyProjects\CompanyWeb\CompanyWebAPI\CompanyWebApi\obj\Debug\net9.0\ref\CompanyWebApi.dll
+D:\MyProjects\CompanyWeb\CompanyWebAPI\CompanyWebApi\obj\Debug\net9.0\CompanyWebApi.sourcelink.json
