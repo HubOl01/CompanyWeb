@@ -13,6 +13,11 @@
 
 ## Angular
 
+Для начала надо перейти в папку `CompanyWeb`
+```sh
+cd CompanyWeb
+```
+
 Установка необходимых библиотек для начала
 ```bash
 npm install
