@@ -13,7 +13,7 @@
 
 ## Angular
 
-Для начала надо перейти в папку `CompanyWeb`
+Для начала нужно перейти в папку `CompanyWeb`
 ```sh
 cd CompanyWeb
 ```
